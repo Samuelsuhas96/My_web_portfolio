@@ -1,0 +1,11 @@
+<h4>Enter your weight in kgs:</h4>
+                    <input type="text"  onChange={this.read} name="weight" value={this.state.weight}/>
+                    <h4>Enter your height in meters:</h4>
+                    <input type="text" onChange={this.read} name="height" value={this.state.height}/>
+                    <br/>
+                    <div id="operations">
+                     
+                     <br/>
+                     <button type="button" onClick={this.cal}>Calculate your BMI</button>
+                    <h4>result</h4>
+                     <input type="text" id="fname" name="fname" value={this.state.bmi}/>
