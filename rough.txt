@@ -1,0 +1,106 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        #home img{
+            width:800px;
+            height:500px;
+        }
+        #home .container{
+            width:1450px;
+            height:480px;
+            background-image: url('images/pic3.jpg');
+            margin-top:20px;
+        }
+        #navigation {
+            width:100%;
+            height:40%;
+            padding:10px;
+            background-color: rgb(230, 230, 230);
+        }
+        #navigation a
+        {
+            font-size: 20px;
+            color:rgb(26, 22, 22);
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: none;
+        }
+        #name
+        {
+            font-size: 80px;
+            float:left;
+        }
+        /* .navbar .navbar-brand 
+        {
+        color: red;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="navigation"></div>
+        <div id="home"></div>
+    </div>
+    
+    <script type="text/babel">
+        class Welcome1 extends React.Component {
+        render() {
+            return <div>
+
+                    <div class="row">
+                        <div class="col-9">
+                            <a id="name" href="#"><b>Home</b></a>
+                        </div>
+                        <div class="col-1">
+                            <a href="#"><b>Home</b></a>
+                        </div>
+                        <div class="col-1">
+                            <a href="#"><b>Home</b></a>
+                        </div>
+                        <div class="col-1">
+                            <a href="#"><b>Home</b></a>
+                        </div>
+                    </div>
+                    </div>
+            
+            ;
+                
+           
+        }
+    }
+    class Homepage extends React.Component
+    {
+        render()
+        {
+            return <div>
+
+                <div class="container">
+                <div class="row" >
+                    <div class="col-10">
+                        
+                    </div>
+                    <div class="col-2">
+                        <h1>hello!</h1>
+                    </div>
+                </div>
+                </div>
+                            </div>
+        }
+    }
+    ReactDOM.render(<Welcome1/>,document.getElementById('navigation'));
+    ReactDOM.render(<Homepage/>,document.getElementById('home'));
+
+
+    </script>
+</body>
+</html> -->

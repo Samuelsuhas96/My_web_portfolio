@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My work</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        #one
+        {
+            height:330px;
+            margin-top:40px;
+            padding:20px;
+            background-color:grey;
+            text-align:center;
+        }
+        #one h1
+        {
+            font-size:25px;
+            color:white;
+            padding:0px;
+            margin-bottom:0px;
+        }
+        #two
+        {
+            height:330px;
+            margin-top:40px;
+            padding:20px;
+            background-color:rgb(192, 192, 192);
+            text-align:center;
+        }
+        #two h1
+        {
+            font-size:25px;
+        }
+        #three
+        {
+            height:330px;
+            margin-top:40px;
+            padding:20px;
+            background-color:rgb(231, 231, 231);
+            text-align:center;
+        }
+        #three h1
+        {
+            font-size:25px;
+        }
+        #one hr{
+            width:200px;
+            margin-top:0px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:0px;
+            border: 2px solid white;
+        }
+        #two hr{
+            width:200px;
+            margin-top:0px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:0px;
+            border: 2px solid black;
+        }
+        #three hr{
+            width:200px;
+            margin-top:0px;
+            margin-left:auto;
+            margin-right:auto;
+            padding:0px;
+            border: 2px solid black;
+        }
+        #one p{
+            color:white;
+        }
+         h3{
+            width:180px;
+            padding: 2px;
+            margin:auto;
+            font-size: 20px;
+            color:white;
+            border: 2px solid white;
+            transition-property:font-size;
+            transition-duration: 1s;
+            
+        }
+        #one h3:hover{
+            
+            font-size:23px;
+            background-color: white;
+            color:grey;
+        }
+        #one a
+        {
+            text-decoration:none;
+        };
+         h3{
+            width:180px;
+            padding: 2px;
+            margin:auto;
+            font-size: 20px;
+            color:white;
+            border: 2px solid white;
+            transition-property:font-size;
+            transition-duration: 1s;
+            
+        }
+        #two h3:hover{
+            
+            font-size:23px;
+            background-color: white;
+            color:grey;
+        }
+        #two a
+        {
+            text-decoration:none;
+        };
+        h3{
+            width:180px;
+            padding: 2px;
+            margin:auto;
+            font-size: 20px;
+            color:white;
+            border: 2px solid white;
+            transition-property:font-size;
+            transition-duration: 1s;
+            
+        }
+        #three h3:hover{
+            
+            font-size:23px;
+            background-color: white;
+            color:grey;
+        }
+        #three a
+        {
+            text-decoration:none;
+        };
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div id="project_content">
+
+            
+        </div>
+        
+    </div>
+    
+    <script type="text/babel">
+        class Welcome1 extends React.Component {
+        render() {
+            return <div>
+                <div class="container">
+                <div class="row" >
+                    <div id="one" class="col-4">
+                        <h1>UI and UX design</h1> <br/>
+                        <hr/><br/>
+                        <p>
+                            The open source web counselor project started with designing the user interface and user experience. 
+                            The goal was to discuss and decide on the user stories, categorize and then prioritize them so that they could be developed in terms of code.
+                        </p>
+
+                        <a href="ui_ux.html"><h3>Take a look</h3></a>
+                       
+                    </div>
+                    <div id="two" class="col-4">
+                        <h1>Building UI</h1><br/>
+                        <hr/><br/>
+                        <p>
+                            Time to build the UI components as React applications. By making use of function components and routing, 
+                            each page of the  user stories on priority were developed along with react routing implemented for navigation.<br/>
+                        </p> 
+                        <a href="components.html"><h3>Take a look</h3></a>
+                    </div>
+                    <div id="three" class="col-4">
+                        <h1>Learning about serverless</h1><br/>
+                        <hr/><br/>
+                        <p>
+                            Serverless is the scale of the future. With reliable services like AWS it only becoming a norm. Serverless is 
+                            an ecosystem supported by AWS API gateway, AWS Lambda and AWS DynamoDB amongst others. 
+                        </p> 
+                        <a href="aws.html"><h3>Take a look</h3></a>
+                    </div>
+                </div>
+                </div>
+                    </div>
+            
+            ;
+                
+           
+        }
+    }
+   
+    ReactDOM.render(<Welcome1/>,document.getElementById('project_content'));
+
+
+    </script>
+</body>
+</html>
